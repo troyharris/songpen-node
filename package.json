@@ -1,0 +1,31 @@
+{
+	"name": "songpen-node",
+	"version": "0.0.0",
+	"private": true,
+	"scripts": {
+		"start": "node ./bin/www"
+	},
+	"dependencies": {
+		"bcrypt-nodejs": "0.0.3",
+		"body-parser": "^1.18.3",
+		"cookie-parser": "~1.4.3",
+		"debug": "~2.6.9",
+		"express": "~4.16.0",
+		"express-graphql": "^0.6.12",
+		"graphql": "^0.13.2",
+		"graphql-tools": "^3.0.2",
+		"http-errors": "~1.6.2",
+		"jade": "~1.11.0",
+		"jsonwebtoken": "^8.2.2",
+		"mongoose": "^5.1.1",
+		"morgan": "~1.9.0",
+		"passport": "^0.4.0",
+		"passport-jwt": "^4.0.0",
+		"passport-local": "^1.0.0"
+	},
+	"devDependencies": {
+		"eslint-plugin-prettier": "^2.6.0",
+		"prettier": "^1.12.1",
+		"eslint": "^4.19.1"
+	}
+}
